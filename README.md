@@ -1,4 +1,4 @@
-# patient-service
+# patient-service - spring reactive web
 
 Use docker file to config postgress with pgadmin
 
