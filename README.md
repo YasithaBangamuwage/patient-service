@@ -1,6 +1,7 @@
 # patient-service
 
 Use docker file to config postgress with pgadmin
+
 Run below SQL scritps before running the app
 
 create table if not exists patientservice.patient(
@@ -9,6 +10,7 @@ create table if not exists patientservice.patient(
 	age int not null,
 	gender int not null
 );
+
 
 insert into patientservice.patient(name, age, gender) values
 ('yasitha', 33,1),
